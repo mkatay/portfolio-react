@@ -77,4 +77,10 @@
     font-size: 15vw;
     color: $top-color;
   }
+  @media (max-width:600px){
+    .back-text{
+      bottom: -10px;
+    }
+  }
+  
 }
