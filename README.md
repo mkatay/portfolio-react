@@ -10,8 +10,11 @@
     > pnpm i gh-pages
 - package.json:
     > "predeploy":"pnpm run build",
+
     > "deploy":"gh-pages -d dist",
-    >  "homepage": "https://mkatay/github.io/portfolio-react",
+
+    > "homepage": "https://mkatay/github.io/portfolio-react",
+    
 - vite.config.js:
     > base:"/portfolio-react",
 - git local repository
