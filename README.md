@@ -15,8 +15,12 @@
     > base:"/portfolio",
 - git local repository
 - push to GitHub repository
+- if using PAT:
+    > git remote set-url origin https://mkatay:<token>@github.com/mkatay/<project-name>
 - build:
     > pnpm run build
 - deploy
     > pnpm run deploy
+
+Demo: [Portfolio](https://mkatay.github.io/portfolio-react/#Home)
     
