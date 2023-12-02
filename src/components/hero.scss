@@ -32,11 +32,22 @@
       gap: 30px;
       h1 {
         text-align: center;
-        font-size: 60px;
+        font-size: 3rem;
       }
       h2 {
         color: rebeccapurple;
         letter-spacing: 10px;
+      }
+    }
+    @media screen and (max-width:600px){
+      .holder{
+        gap:10px;
+        .text-container{
+          gap:10px;
+          h1{
+            font-size: 1.5rem;
+          }
+        }
       }
     }
     .buttons {
