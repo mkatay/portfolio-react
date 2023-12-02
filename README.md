@@ -11,8 +11,9 @@
 - package.json:
     > "predeploy":"pnpm run build",
     > "deploy":"gh-pages -d dist"
+    >  "homepage": "https://mkatay/github.io/portfolio-react",
 - vite.config.js:
-    > base:"/portfolio",
+    > base:"/portfolio-react",
 - git local repository
 - push to GitHub repository
 - if using PAT:
