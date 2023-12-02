@@ -1,0 +1,35 @@
+@import '../variables.scss';
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ /* max-width: 1400px;*/
+  box-shadow: 0 0 10px gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+ background-color: $primary-color;
+  .holder {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* max-width: 1400px;*/
+
+    padding: 0.5rem;
+    /*border:1px solid red;*/
+    span {
+      font-weight: bold;
+    }
+    .social {
+      display: flex;
+      gap: 20px;
+    }
+    a {
+      color: aliceblue;
+    }
+  }
+}
