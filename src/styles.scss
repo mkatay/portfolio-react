@@ -23,7 +23,7 @@ body {
 
 section{
   padding-top: 60px;
-  height: 100vh;
+  min-height: 100vh;
   /*scroll-snap-align tulajdonság beállítja, hogy a görgetés során a tartalmak melyik része illeszkedjen a tartályba. */
   /* a section közepéhez igazítja a görgetést, tehát a görgetés során a section közepénél fog megállni, és nem hagyja azt félbehagyottan vagy részben láthatóan.*/
   scroll-snap-align: center;
