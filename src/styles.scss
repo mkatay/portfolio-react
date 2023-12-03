@@ -25,15 +25,15 @@ section{
   padding-top: 60px;
   min-height: 100vh;
   /*scroll-snap-align tulajdonság beállítja, hogy a görgetés során a tartalmak melyik része illeszkedjen a tartályba. */
-  /* a section közepéhez igazítja a görgetést, tehát a görgetés során a section közepénél fog megállni, és nem hagyja azt félbehagyottan vagy részben láthatóan.*/
-  scroll-snap-align: center;
+  /* a section közepéhez igazítja a görgetést, tehát a görgetés során a section elejéhez fog megállni, és nem hagyja azt félbehagyottan vagy részben láthatóan.*/
+  scroll-snap-align: start;
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   section {
-    min-height: 50vh; /* Változtasd meg az értéket az igényeid szerint */
+    min-height: 50vh; 
     scroll-snap-align:start;
   }
-}
+}*/
 a{
   text-decoration: none;
 }
