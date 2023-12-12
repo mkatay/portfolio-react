@@ -13,7 +13,7 @@
 
     > "deploy":"gh-pages -d dist",
 
-    > "homepage": "https://mkatay/github.io/portfolio-react",
+    > "homepage": "https://mkatay.github.io/portfolio-react",
     
 - vite.config.js:
     > base:"/portfolio-react",
